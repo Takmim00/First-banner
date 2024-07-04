@@ -13,11 +13,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .content{
     color: #ffffffce;
     text-align: center;
     width: 70%;
+    margin-top: -150px;
 }
 .content h2{
     font-size: 54px;
@@ -41,4 +43,19 @@
 .content button:hover{
     background-color: #068858;
     transition: 0.5s ease-in;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    margin-left: 700px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+nav ul li{
+    margin: 10px;
+    padding: 10px;
 }
